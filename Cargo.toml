@@ -1,0 +1,14 @@
+[workspace]
+resolver = "3"
+members = [
+  "crates/*",
+]
+
+[workspace.dependencies]
+log = "0.4"
+glib = "0.20"
+gstreamer = "0.23"
+thiserror = "2"
+
+[profile.dev]
+debug = 0

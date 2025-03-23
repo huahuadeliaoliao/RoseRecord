@@ -1,0 +1,10 @@
+[package]
+name = "gst-record"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+log.workspace = true
+glib.workspace = true
+gstreamer.workspace = true
+thiserror.workspace = true
